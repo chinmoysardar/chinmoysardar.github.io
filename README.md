@@ -12,7 +12,7 @@ A plain HTML/CSS site (no build step, no framework). It replaces the Wix site at
 | `thesis.html` | Full thesis summary with timeline and Figure 1 |
 | `publications.html` | Working papers, manuscripts, thesis, posters |
 | `cv.html` | Web CV + PDF download |
-| `photography.html` | Artist statement, featured photo, recognition |
+| `visuals.html` | Artist statement, *Bearing the Burnt* photo documentary, recognition |
 | `assets/style.css` | All styling (colours, fonts, layout) |
 | `assets/site.js` | Photo fallback + "Copy email" button |
 
@@ -22,7 +22,7 @@ These files are linked from the site but could not be downloaded from Wix, so ad
 
 1. `assets/profile.jpg` — your portrait (4:5 crop works best, about 800×1000 px). Until it exists, a "CS" monogram shows.
 2. `assets/Chinmoy_Sardar_CV.pdf` — your updated CV. The "Download CV" buttons point here.
-3. `assets/photos/once-there-was-a-home.jpg` — the featured photograph.
+3. `assets/photos/once-there-was-a-home.jpg` — the photograph beside the artist statement.
 4. Optional: download the poster and capstone PDFs from Wix into `assets/docs/` and change the links in
    `research.html` and `publications.html`. They currently point to your Wix file URLs, which stop working if you close the Wix site.
 
@@ -57,4 +57,4 @@ Optional: buy a domain (e.g. `chinmoysardar.com`) and set it under Settings → 
 - "Currently" box and "Updated October 2026": `index.html` and `publications.html` — update monthly.
 - When you post a preprint, uncomment the preprint line in `research.html` (search for "preprint").
 - When you create ORCID / Google Scholar profiles, uncomment those links in the footer of every page.
-- Each new photo on `photography.html`: copy the `<figure class="photo">…</figure>` block and change the file name and caption (*Title* — Place, Year).
+- Each new documentary photo on `visuals.html`: copy a `<figure>…</figure>` line inside `<div class="series">` and change the file name and alt text.
