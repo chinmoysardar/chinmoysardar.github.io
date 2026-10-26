@@ -10,7 +10,7 @@ A plain HTML/CSS site (no build step, no framework). It replaces the Wix site at
 | `index.html` | Home: positioning, bio, "Currently" box, CV button, email |
 | `research.html` | Research questions, working paper, thesis card, coursework |
 | `thesis.html` | Full thesis summary with timeline and Figure 1 |
-| `publications.html` | Working papers, manuscripts, thesis, posters |
+| `publications.html` | Working papers, thesis, posters |
 | `cv.html` | Web CV + PDF download |
 | `visuals.html` | Artist statement, *Bearing the Burnt* photo documentary, recognition |
 | `assets/style.css` | All styling (colours, fonts, layout) |
@@ -30,8 +30,7 @@ These files are linked from the site but could not be downloaded from Wix, so ad
 
 The site only states things you have said publicly or told me. Check these before going live:
 
-- **Manuscript title** (publications.html): changed to *"Dry-season deterioration of stored rainwater quality in coastal Bangladesh: Association with household tank material"* so it matches the thesis results. Revert if your draft analyses storage environment and catchment type.
-- **Thesis partner** (thesis.html): shown as M. I. U. Mazumder, taken from the manuscript author list.
+- **Thesis partner** (thesis.html): M. I. U. Mazumder (confirmed).
 - **Independent Researcher, 2025 – present** (cv.html): adjust the start date if needed.
 - **Thesis Researcher, 2024 – 2025** (cv.html): adjust to your actual thesis start.
 - **Skills** (cv.html): add tools you really use (e.g. QGIS, R, Excel, AutoCAD). Nothing was added that you hadn't mentioned.

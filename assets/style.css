@@ -156,6 +156,7 @@ p { margin: 0; }
   background: var(--estuary-soft); color: var(--estuary); vertical-align: 0.1em;
 }
 .entry.cite { display: block; padding-left: 1.4rem; text-indent: -1.4rem; }
+.entry.cite .status { text-indent: 0; }
 
 /* Thesis details strip */
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0; border-top: 1px solid var(--rule); border-left: 1px solid var(--rule); margin: 0; }
