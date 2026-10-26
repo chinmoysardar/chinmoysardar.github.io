@@ -267,7 +267,8 @@ p { margin: 0; }
 @media (min-width: 1100px) {
   .series { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
   /* 8 photos: the first spans two columns so every row is full */
-  .series figure:first-child { grid-column: span 2; aspect-ratio: auto; }
+  .series figure:first-child { grid-column: span 2; aspect-ratio: auto; position: relative; }
+  .series figure:first-child img { position: absolute; inset: 0; }
   .statement-photo { min-height: 36rem; }
   .doc-head { grid-template-columns: 17rem minmax(0, 1fr); gap: 3.5rem; }
 }
