@@ -168,7 +168,7 @@ p { margin: 0; }
 
 /* Entries (CV, publications, projects) */
 .entries { display: grid; gap: 1.6rem; }
-.entry { display: grid; gap: 0.3rem; max-width: var(--measure); min-width: 0; }
+.entry { display: grid; gap: 0.3rem; align-content: start; max-width: var(--measure); min-width: 0; }
 .entry-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.1rem 1rem; align-items: baseline; }
 .entry h3 { font-size: 1.08rem; }
 .entry .when { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
